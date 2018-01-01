@@ -1,0 +1,251 @@
+body,
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+}
+
+.bod {
+  background-color: #e5e2d3;
+}
+
+#bb {
+  overflow-x: hidden !important;
+}
+
+#nbar {
+  background-color: #e8634e;
+}
+
+#logo {
+  color: #e5e2d3;
+  font-size: 35px;
+}
+
+#active {
+  color: #e5e2d3;
+  font-size: 22px;
+}
+
+#fo {
+  font-size: 22px;
+  color: white;
+}
+
+#mying {
+  display: inline;
+}
+
+.btn1 {
+  background-color: #e8634e;
+}
+
+.fon,
+.fon2 {
+  color: #e8634e;
+}
+
+.hh1 {
+  margin-left: 2%;
+  margin-top: -22%;
+}
+
+.line {
+  border-bottom: 3px solid #c6c4ad !important;
+}
+
+#l1,
+#l4 {
+  color: #e8634e;
+  font-size: 50px;
+  padding-top: 40px;
+}
+
+#l2 {
+  color: #e8634e;
+  font-size: 40px;
+  padding-top: 15px;
+}
+
+#card {
+  background-color: #e8634e;
+  color: white;
+  font-size: 20px !important;
+  padding: 4rem 2rem;
+}
+
+#card1 {
+  color: white;
+  font-size: 20px !important;
+  background-color: #566573;
+  padding: 4rem 2rem;
+}
+
+#card1 label {
+  font-size: 20px !important;
+}
+
+.pro {
+  background-color: #e8634e;
+}
+
+.pro2 {
+  padding-top: 6px;
+}
+
+.progress {
+  background-color: #566573 !important;
+}
+
+.contact {
+  background-color: #e8634e;
+  color: white;
+}
+
+#contjumbo {
+  background-color: #e8634e;
+  box-shadow: none;
+  padding-top: 2px;
+}
+
+#formjumbo {
+  background-color: white;
+  box-shadow: none;
+  padding-left: 2px;
+}
+
+#footer {
+  background-color: black;
+  height: 30px;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  border-top: #FF4500 solid 2px;
+}
+
+#form1, #form2, #form3 {
+  background-color: white;
+  padding-bottom: 0;
+  padding-top: 20px;
+  height: 25px;
+  margin-bottom: 1px;
+}
+
+.md-form label {
+  top: 20px !important;
+  color: grey !important;
+}
+
+#note {
+  color: white;
+}
+
+#fspace {
+  height: 60px;
+  margin-top: 30px;
+}
+
+#fspace2 {
+  margin-top: 40px;
+}
+
+#msg {
+  top: 35px !important;
+}
+
+.help-block {
+  color: red;
+  font-size: 15px;
+  margin-bottom: 50px !important;
+}
+
+.form-control-feedback {
+  position: absolute;
+  margin-right: 15px;
+  margin-top: 15px;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.has-error .form-control-feedback {
+  color: #a94442;
+}
+
+.has-success .form-control-feedback {
+  color: #3c763d;
+}
+
+#social {
+  height: 60px;
+  width: 60px;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  #l1 {
+    font-size: 35px;
+    padding-top: 50px;
+  }
+  #l4 {
+    font-size: 35px;
+    padding-top: 50px;
+    color: #e8634e;
+  }
+  .line2 {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  #l1 {
+    font-size: 25px;
+    padding-top: 60px;
+  }
+  #l4 {
+    font-size: 25px;
+    padding-top: 60px;
+    color: #e8634e;
+  }
+  .line2 {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  #l1 {
+    font-size: 20px;
+    padding-top: 60px;
+  }
+  #l4 {
+    font-size: 14px;
+    padding-top: 60px;
+    color: #e8634e;
+  }
+  .line2 {
+    padding-bottom: 40px;
+    width: 20px !important;
+  }
+  .fon {
+    font-size: 35px !important;
+  }
+  .fon2 {
+    font-size: 30px !important;
+  }
+}
